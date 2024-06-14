@@ -1,0 +1,43 @@
+.publicDashboard{
+    background-image: url("../../assets/background-1696064_1280.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboardchild{
+   margin-top: 15%;
+}
+
+.dashboardHeading{
+    font-weight: 700;
+    word-spacing: 5px;
+    font-size: 60px;
+}
+
+.ButtonHeading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+
+.ButtonHead1 {
+    padding: 15px 12px;
+    font-size:medium;
+    font-weight: 500;
+}
+
+.ButtonHead2{
+    padding: 15px 12px;
+    font-size:medium;
+    font-weight: 500;
+}
+@media only screen and (max-width:600px) {
+    .dashboardHeading{
+       padding: 5%;
+       text-align: center;
+       margin-top: 2%;
+    }
+}

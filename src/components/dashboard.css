@@ -1,0 +1,43 @@
+.tableStyles{
+    text-align: center;
+}
+/* 
+.dashboardstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.dashboardCardstyle{
+    width: 18rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-bottom: 2%;
+    background-color: rgb(52, 152, 245);
+}
+
+.dashboardstylebody{
+/*     
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    height: 150vh;
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+
+}
+.dashboardCardstyle:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media only screen and (max-width:600px) {
+    .tableStyles{
+        overflow: auto;
+    }
+    .dashboardstylebody{
+        display:block;
+    }
+}

@@ -1,0 +1,9 @@
+.ViewBodyUser{
+    background-color: rgb(160, 220, 250);
+    height: 100vh;
+}
+
+.white-spinner{
+    color: rgb(65, 13, 237);
+    margin-left: 10px;
+}

@@ -1,0 +1,28 @@
+.CreateRequestStyle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    height: 100vh;
+}
+.createformstyle{
+    width: 80%;
+    padding: 2%;
+    border-radius: 3%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    background-color: rgb(222, 246, 246);
+}
+
+.createButton{
+    margin-bottom: 6%;
+}
+
+.purble-spinner{
+    color: rgb(65, 13, 237);
+    margin-left: 10px;
+}
+
+.loadingSpinnerCreate{
+    margin-bottom: 5%;
+}
